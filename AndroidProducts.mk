@@ -12,5 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_e2303.mk \
-                     $(LOCAL_DIR)/aosp_e2333.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/choose_tulip.mk
