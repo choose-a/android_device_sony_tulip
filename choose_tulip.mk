@@ -33,5 +33,8 @@ PRODUCT_MANUFACTURER := Sony
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E2303,E2333,tulip
 
+# Suzu Props
+TARGET_SYSTEM_PROP += device/sony/tulip/system.prop
+
 # Inherit Choose-A parts
 $(call inherit-product, vendor/choose-a/config/gsm.mk)
