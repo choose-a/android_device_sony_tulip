@@ -16,10 +16,10 @@ include device/sony/kanuti-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E2303
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=tulip
-
 # Platform
 PRODUCT_PLATFORM := kanuti
+
+BOARD_KERNEL_CMDLINE += androidboot.hardware=tulip
 
 # Recovery config
 BOARD_SONY_INIT_FLAGS += -DDEV_BLOCK_FOTA_NUM="21"
